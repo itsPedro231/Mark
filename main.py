@@ -35,11 +35,11 @@ def newNotes():
   newNote.close()
 
 def deleteNotes():
-  files = os.scandir('C:\jarvis_notes')
+  files = os.scandir('C:\mark_notes')
   tts.speak('which notes would you like to delete: ', files)
 
 def readNotes():
-  files = os.scandir('C:\jarvis_notes')
+  files = os.scandir('C:\mark_notes')
   content = 'available notes: ' + str(files)
   tts.speak(content)  
 
