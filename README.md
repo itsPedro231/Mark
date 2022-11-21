@@ -1,7 +1,7 @@
 # Mark
 A virtual assistant inspired by J.A.R.V.I.S from Iron Man.
 
-Mark is awakened when his name is called. When awakened, the assistant will listen to any input.
+Mark is awakened when his name is called. When awakened, the assistant will listen to any mic input.
 
 Features:
 - Create/Destroy/Read notes(txt files). -> if the input contains the word note/notes.
